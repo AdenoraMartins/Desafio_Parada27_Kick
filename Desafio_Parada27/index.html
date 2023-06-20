@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Formulário de Cadastro</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/jquery-3.7.0.js"></script>
+        <script src="js/jquery.mask.js"></script>
+        <script src="js/mascara.js"></script>
+        <script src="js/viacep.js"></script>
+    </head>
+
+    <body>
+
+        <div id="box">
+        
+            <h3>Formulário de Cadastro</h3>
+            
+            <label>Nome</label>
+            <input type="text" id="i_nome" placeholder="Nome">
+
+            <label>Sobrenome</label>
+            <input type="text" id="i_sobrenome" placeholder="Sobrenome">
+
+            <label>E-mail</label>
+            <input type="text" id="i_email" placeholder="E-mail">
+
+            <label>CEP</label>
+            <input type="text" id="i_cep" placeholder="00000-000" onblur="pesquisa_cep(this.value)">
+
+            <label>Rua</label>
+            <input type="text" id="i_rua" placeholder="Rua">
+
+            <label>Bairro</label>
+            <input type="text" id="i_bairro" placeholder="Bairro">
+
+            <label>Cidade</label>
+            <input type="text" id="i_cidade" placeholder="Cidade">
+
+            <label>Estado</label>
+            <input type="text" id="i_estado" placeholder="Estado">
+
+            <input type="submit" value="Cadastrar" id="btt">
+
+        </div>
+
+    </body>
+</html>

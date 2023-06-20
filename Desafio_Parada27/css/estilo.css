@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background-image: url(../img/fundo_tech.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    background-color: rgb(34, 28, 66);
+    width: max-content;
+    padding: 20px 40px 20px 40px;
+    color: #ffffff;    
+}
+
+#box h3{
+    font-size: 22px;
+    text-align: center;
+}
+
+#box input:not(#btt) {
+    display: block;
+    margin-bottom: 10px;
+    width: 270px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+#btt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 276px;
+    height: 30px;
+    border: none;
+    background-color: rgb(48, 48, 218);
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#btt:hover{
+    background-color: rgb(93, 93, 224);
+    transition: 0.5s;
+}
+
